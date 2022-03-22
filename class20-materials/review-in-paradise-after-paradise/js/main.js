@@ -14,4 +14,9 @@
         }
     }
 
+    // heck2 = function(arr) { 
+    //     (arr[0] < arr[arr.length-1]) ? alert("Hi") : 
+    //     (arr[0] > arr[arr.length-1]) ? alert("Bye") : 
+    //     alert("We close in an hour") }
+
     lightWork([3,1,3,4,56,22,3])

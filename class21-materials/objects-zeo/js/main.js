@@ -16,8 +16,12 @@ let stopwatch = {
     watchMaterial: function () {
         return `The watch material is ${this.material}`
     },
+    tellTime: function() {
+        return `The current time is: ${this.currentTime}`
+    }
 }
 
 stopwatch.watchWeight()
 stopwatch.watchColor()
 console.log(stopwatch.watchMaterial())
+console.log(stopwatch.tellTime())

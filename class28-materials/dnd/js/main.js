@@ -8,7 +8,16 @@ function getFetch(){
   fetch(url)
       .then(res => res.json()) // parse response as JSON
       .then(data => {
-       
+        console.log(data)
+        // let subclass = data.subclasses[0]
+        data.subclasses.forEach(el => {
+        // create an li
+        const li = document.createElement('li')
+        // add text to li
+            li.textContent = el.name
+        // append the li to the ul
+            document.querySelector('ul').appendChild(li)
+        })
       })
       .catch(err => {
           console.log(`error ${err}`)

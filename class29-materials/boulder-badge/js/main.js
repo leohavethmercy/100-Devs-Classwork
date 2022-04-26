@@ -21,5 +21,3 @@
 let rare = "function";
 
 let newRare = rare + "josh";
-
-console.log(newRare);
